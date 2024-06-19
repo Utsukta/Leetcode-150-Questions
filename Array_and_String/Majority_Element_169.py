@@ -48,3 +48,13 @@ class Solution(object):
 s=Solution()
 output=s.majorityElement([6,6,6,7,7,])
 print(output)
+
+
+
+#Notes: In a sorted array, the majority element is guaranteed to be at the middle index if it appears more than ⌊n/2⌋ times.
+#By sorting
+# class Solution:
+#     def majorityElement(self, nums: List[int]) -> int:
+#         nums.sort()
+#         n = len(nums)
+#         return nums[n//2] middle element
